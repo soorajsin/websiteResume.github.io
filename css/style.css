@@ -583,6 +583,12 @@ h3.my-profession{
 .portfolio .portfolio-item-inner .portfolio-img img{
           width: 100%;
           display: block;
+          border-radius: 5%;
+}
+.portfolio .portfolio-item-inner .portfolio-img a{
+          width: 50%;
+          outline: none;
+
 }
 /* Contact */
 .contact-title{
