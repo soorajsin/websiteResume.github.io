@@ -594,6 +594,11 @@ h3.my-profession{
           outline: none;
 
 }
+.project-img{
+          border-radius: 10%;
+          height: 300px;
+          width: 300px;
+}
 /* Contact */
 .contact-title{
           color: var(--skin-color);
@@ -609,8 +614,8 @@ h3.my-profession{
           margin-bottom: 60px;
 }
 .contact .contact-info-item{
-          flex: 0 0 25%;
-          max-width: 25%;
+          flex: 0 0 33.33%; 
+          max-width: 33.33%;
           text-align: center;
           margin-bottom: 60px;
 }
@@ -671,6 +676,23 @@ h3.my-profession{
           padding: 0 50px;
 
 }
+.contact-info-item2{
+          flex: 0 0 33.33%; 
+          max-width: 33.33%;
+          display: inline-block;
+          width: 290px;
+          overflow: hidden;
+}
+.size-minimizeofa{
+          display: inline-block;
+}
+.imgclass {
+          border-radius: 10%;
+          height: 65px;
+          width: 65px;
+          margin-left: 123px;
+          padding-top: 10px;
+}
 
 
 @media (max-width:1199px){
@@ -729,5 +751,12 @@ h3.my-profession{
           .about .about-content .personal-info{
                     flex:  0 0 100%;
                     max-width: 100%;
+          }
+          .personal-info,
+          .row,
+          .info-item{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+
           }
 }
