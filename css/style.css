@@ -759,4 +759,8 @@ h3.my-profession{
                     grid-template-columns: repeat(1, 1fr);
 
           }
+          .contact-info-item2{
+                    flex: 0 0 100%; 
+                    max-width: 100%;
+          }
 }
