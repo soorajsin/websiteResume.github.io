@@ -677,13 +677,14 @@ h3.my-profession{
 
 }
 .contact-info-item2{
+          color: #393939;
           flex: 0 0 33.33%; 
           max-width: 33.33%;
           display: inline-block;
           width: 290px;
           overflow: hidden;
 }
-.size-minimizeofa{
+.size-minimizeofa .padd-15{
           display: inline-block;
 }
 .imgclass {
